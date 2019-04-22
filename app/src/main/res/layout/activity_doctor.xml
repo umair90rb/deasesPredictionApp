@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Doctor">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:background="#38819e"
+        android:orientation="vertical">
+        <ImageView
+            android:id="@+id/m_s_image"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:layout_marginTop="40dp"
+            android:layout_gravity="center"
+            android:background="@drawable/doctor"
+            android:contentDescription="@string/todo"
+            android:scaleType="fitCenter"/>
+
+        <TextView
+            android:id="@+id/disp_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:textAlignment="center"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/disp_gender"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="70dp"
+            android:layout_marginTop="50dp"
+            android:textSize="25sp"
+            android:drawablePadding="10dp"
+            android:drawableStart="@drawable/ic_gender"/>
+        <TextView
+            android:id="@+id/disp_No"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="70dp"
+            android:layout_marginTop="20dp"
+            android:drawablePadding="10dp"
+            android:drawableStart="@drawable/ic_phone_android_black_24dp"/>
+        <TextView
+            android:id="@+id/disp_address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="70dp"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"
+            android:drawablePadding="10dp"
+            android:drawableStart="@drawable/ic_location_city_black_24dp"/>
+
+        <Button
+            android:id="@+id/back"
+            android:layout_gravity="center"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/button_style_blue"
+            android:drawableStart="@drawable/ic_arrow_back_black_24dp"
+            android:text="Back"
+            android:textColor="#fff"
+            android:textSize="17sp" />
+    </LinearLayout>
+</LinearLayout>

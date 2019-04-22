@@ -1,0 +1,44 @@
+{
+  "project_info": {
+    "project_number": "550394624533",
+    "firebase_url": "https://heart-disease-prediction-432ff.firebaseio.com",
+    "project_id": "heart-disease-prediction-432ff",
+    "storage_bucket": "heart-disease-prediction-432ff.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:550394624533:android:b51981fa1054d410",
+        "android_client_info": {
+          "package_name": "com.fyp.developer.heartdiseasepredictionsystem"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "550394624533-7f5e5kpar5ds959l8snc4l2l79fhlseo.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.fyp.developer.heartdiseasepredictionsystem",
+            "certificate_hash": "29f07849c5675191440ed80503c3d0d4093a55f3"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA4TKA6hPLIaUXTpUj1ql5BDvoX4x0ap6A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "550394624533-31hg3ipbm5n7s65nalaotc80f03qg4u8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Heart Disease Prediction System</string>
+    <string name="are_you_a">Are You a ?</string>
+    <string name="patient">Patient</string>
+    <string name="doctor">Doctor</string>
+    <string name="or">OR</string>
+    <string name="doctor_profile">Doctor_profile</string>
+    <string name="fill_below_details">Fill_below_details</string>
+    <string name="todo">TODO</string>
+    <string name="tap_to_choose_image">Tap to choose image</string>
+    <string name="email">Email</string>
+    <string name="gender">Gender</string>
+    <string name="city">City</string>
+    <string name="cell_number">Cell Number</string>
+    <string name="update">Update</string>
+    <string name="nav_open">Open</string>
+    <string name="nav_close">Close</string>
+</resources>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:layout_editor_absoluteY="25dp"
+    tools:context=".category">
+
+    <TextView
+        android:id="@+id/Ques"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="-70dp"
+        android:layout_marginTop="-5dp"
+        android:layout_marginBottom="10dp"
+        android:text="@string/are_you_a"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large.Inverse"
+        android:textSize="30sp"
+        tools:layout_editor_absoluteX="32dp"
+        tools:layout_editor_absoluteY="28dp" />
+
+    <ImageView
+        android:id="@+id/patient_img"
+        android:layout_width="138dp"
+        android:layout_height="139dp"
+        app:srcCompat="@drawable/patient"
+        tools:layout_editor_absoluteX="94dp"
+        tools:layout_editor_absoluteY="99dp">
+
+    </ImageView>
+
+    <TextView
+        android:id="@+id/patient"
+        android:layout_width="wrap_content"
+        android:layout_height="37dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="20dp"
+        android:text="@string/patient"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large"
+        android:textColor="#fff"
+        tools:layout_editor_absoluteX="258dp"
+        tools:layout_editor_absoluteY="241dp" />
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:fontFamily="@font/aclonica"
+        android:text="@string/or"
+        android:textAlignment="textStart"
+        android:textAllCaps="false"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="@android:color/holo_green_dark"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="177dp"
+        tools:layout_editor_absoluteY="322dp" />
+
+    <ImageView
+        android:id="@+id/doctor_img"
+        android:layout_width="134dp"
+        android:layout_height="134dp"
+        app:srcCompat="@drawable/doctor"
+        tools:layout_editor_absoluteX="124dp"
+        tools:layout_editor_absoluteY="322dp" />
+
+    <TextView
+        android:id="@+id/doctor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="7dp"
+        android:text="@string/doctor"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large"
+        android:textColor="#fff"
+        tools:layout_editor_absoluteX="158dp"
+        tools:layout_editor_absoluteY="491dp" />
+
+</LinearLayout>
+
